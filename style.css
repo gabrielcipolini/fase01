@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #7d7987;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+#hero {
+  width: 592px;
+
+  margin: 0 auto 72px;
+  text-align: center;
+}
+
+span,
+a {
+  color: #f90;
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 49px;
+  font-weight: 400;
+  color: black;
+  margin-top: 72px;
+}
+
+h1 span {
+  color: #f90;
+}
+
+#hero p + p {
+  margin-top: 50px;
+}
+
+footer {
+  width: 570px;
+
+  margin: auto;
+  text-align: center;
+  border-top: 1px solid #eceff2;
+}
+
+footer a + a {
+  margin-left: 30px;
+}
